@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.Python
+python*.dll
+
+# Virtual Environment
+venv/
+.env/
+.envrc
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Cloudinary & Other Secret Configs
+*.env
+config.json
+secrets.json
+
+# Logs & Debugging
+logs/
+*.log
+*.out
+*.pid
+
+# Cache & Compiled Files
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# IDE Files
+.vscode/
+.idea/
+*.iml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# FastAPI & Uvicorn specific
+instance/
+*.sqlite3
+*.db
+*.sqlite
+
+# Pytest & Coverage
+htmlcov/
+.coverage
+.tox/
+noxfile.py
+.nox/
+pytest_cache/
+__pypackages__/
+.coverage.*
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+.dockerignore
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Migrations (if using Alembic)
+migrations/
+alembic/
+
